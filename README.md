@@ -1,6 +1,6 @@
 # Zommera
 
-**Live Deployment:** [Zommera Live](https://your-deployment-link.com)  
+**Live Deployment:** [Zommera Live](https://zoomerafrontend.onrender.com)  
 
 
 **Zommera** is a web-based video meeting platform that allows users to join video calls, share screens, chat in real-time, and track their meeting history. Users can view past meetings with meeting codes and dates.
