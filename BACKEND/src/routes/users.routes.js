@@ -1,13 +1,14 @@
-import { Router } from "express";
-import { addToHistory, getUserHistory, login, register } from "../controller/user.controller.js";
 
+
+
+import { Router } from "express";
+import { register, login, getUserHistory, addToHistory } from "../controller/user.controller.js";
 
 const router = Router();
 
-router.route("/login").post(login)
-router.route("/register").post(register)
-router.route("/add_to_activity").post(addToHistory)
-router.route("/get_all_activity").post(getUserHistory)
-
+router.post("/register", register);
+router.post("/login", login);
+router.post("/add_to_activity", addToHistory);
+router.post("/get_all_activity", getUserHistory); // POST matches frontend
 
 export default router;
